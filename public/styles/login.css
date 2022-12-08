@@ -45,7 +45,7 @@
 }
 
 .button:hover {
-    background: #4b4b4b;
+  background: #4b4b4b;
 }
 
 .button__facebook,
@@ -114,8 +114,12 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
+  .main {
+    padding: var(--padding-l) var(--padding-s);
+  }
+
   .form {
-    margin: 0 var(--margin-m);
+    margin: 0 var(--margin-s);
   }
 
   .buttons-wrapper {
