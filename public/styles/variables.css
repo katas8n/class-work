@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "primary";
+    src: url('../fonts/Roboto/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: "secondary";
+    src: url('../fonts/Raleway/static/Raleway-Medium.ttf');
+}
+
+:root {
+    /* BG */
+    --primary-bg : linear-gradient( darkcyan , magenta) ;
+    --secondary-bg : darkmagenta ;
+    --attention-bg : aliceblue ;
+    --main-bg : #232323 ;
+
+    /* Text */
+    --primary-text : #232323 ;
+    --secondary-text : whitesmoke ;
+    --attention-text : cyan ;
+    --main-text : darkblue;
+    
+    /* Padding */
+    --padding-xxl : 5rem ;
+    --padding-xl : 4rem ;
+    --padding-l : 3rem ;
+    --padding-m : 2rem ;
+    --padding-s : 1rem ;
+    --padding-xs : .4rem ;
+
+    /* Margin */
+    --margin-xxl : 5rem ;
+    --margin-xl : 4rem ;
+    --margin-l : 3rem ;
+    --margin-m : 2rem ;
+    --margin-s : 1rem ;
+    
+    /* Font-size */
+    --font-size-xxl : 3rem ;
+    --font-size-xl : 2rem ;
+    --font-size-l : 1.6rem ;
+    --font-size-m : 1rem ;
+    --font-size-s : .8rem ;
+    
+    /* Image-size */
+    --image-xxl : 13rem ;
+    --image-xl : 10rem ;
+    --image-l : 8rem ;
+    --image-m : 6rem ;
+    --image-s : 4rem ;
+    
+    /* Shadow */
+    --primary-box-shadow : 6px 8px 6px ;
+    --secondary-box-shadow :  3px 5px 3px ;
+    
+    /* font-family */
+    --primary-font-family : "primary";
+    --secondary-font-family : "secondary";
+
+
+}
