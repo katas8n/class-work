@@ -73,10 +73,19 @@ li {
 
 .banner-img-wrapper {
   width: 90%;
+  position: relative;
 }
 
 .banner-img {
   width: 100%;
+}
+
+.dots {
+  position: absolute;
+  bottom: 1rem;
+  right: 50%;
+  width: var(--image-s);
+  transform: translate(50%, 0);
 }
 
 .title {
@@ -129,7 +138,7 @@ li {
   justify-content: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 896px) {
   .banner {
     padding: var(--padding-m) 0;
   }
@@ -137,5 +146,9 @@ li {
   .arrow {
     font-size: var(--font-size-m);
     margin: 0;
+  }
+
+  .dots {
+    width: calc(var(--image-s) / 2);
   }
 }
